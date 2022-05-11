@@ -1,0 +1,1 @@
+docker-compose -p distrib_hello_world -f <path-to>/docker-compose.yml down

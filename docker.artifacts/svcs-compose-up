@@ -1,0 +1,3 @@
+docker-compose -p distrib_hello_world -f <path-to>/docker-compose.yml up -d
+# execute this to enable the management ui for the masstransit/rabbitmq image
+docker exec rabbit_mq_hw rabbitmq-plugins enable rabbitmq_management
